@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, section, header, main, footer {
+    background-color: gray;
+}
+
+nav {
+    border-radius: 50px;
+    color: red;
+}
+
+.btns {
+    border-radius: 50px;
+    background-color: red;
+    width: 15vw;
+    height: 10vh;
+    margin-top: 10vh;
+    border: 2px solid black;
+}
+
+button > a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    text-align: center;
+}
+
+main > img {
+    margin-top: 10vh;
+    width: 70vw;
+}
+
+article {
+    color: white;
+    margin-top: 10vh;
+    max-width: 60vw;
+    margin-left: 20vw;
+}
+
+article > h4 {
+    color: black;
+}
+
+article > h4 > strong {
+    color: red;
+}
+
+footer {
+    text-align: center;
+}
+
+footer > div {
+    background-color: black;
+    border-radius: 70px;
+    height: 10vh;
+    color: white;
+    font-size: x-large;
+}
+
