@@ -46,27 +46,32 @@ section {
     border: 2px solid black;
 }
 
-.btns > p {
-    font-size: x-lar;
+.btns:hover {
+    background-color: rgb(163, 11, 11);
+
 }
 
 ul > li {
     display: inline;
-    text-decoration: none;
-    margin-right: 5VW;    
+    text-decoration: none;  
+    margin-right: 5VW;
 }
 
-button > a {
+button, a {
     text-decoration: none;
     color: black;
+    font-size: x-large;
+
 }
 
 /*conteudo principal*/
 main {
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-main > img {
+main > #imagem {
     margin-top: 10vh;
     width: 70vw;
     overflow-y: hidden;
@@ -80,11 +85,11 @@ article {
     overflow-y: hidden;
 }
 
-article > h4 {
+article > h2 {
     color: black;
 }
 
-article > h4 > strong {
+article > h2 > strong {
     color: red;
 }
 
@@ -116,7 +121,7 @@ footer > div {
         width: 80vw;
     }
     footer > div {
-        font-size: larger;
+        font-size: medium;
         height: 17vh;
     }
 }
