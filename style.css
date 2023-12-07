@@ -12,6 +12,10 @@ nav {
     color: red;
 }
 
+section {
+    overflow-y: hidden;
+}
+
 .btns {
     border-radius: 50px;
     background-color: red;
@@ -19,6 +23,11 @@ nav {
     height: 10vh;
     margin-top: 10vh;
     border: 2px solid black;
+}
+
+ul > li {
+    display: inline;
+    text-decoration: none;
 }
 
 button > a {
@@ -33,6 +42,7 @@ main {
 main > img {
     margin-top: 10vh;
     width: 70vw;
+    overflow-y: hidden;
 }
 
 article {
@@ -40,6 +50,7 @@ article {
     margin-top: 10vh;
     max-width: 60vw;
     margin-left: 20vw;
+    overflow-y: hidden;
 }
 
 article > h4 {
@@ -52,6 +63,7 @@ article > h4 > strong {
 
 footer {
     text-align: center;
+    overflow-y: hidden;
 }
 
 footer > div {
@@ -61,4 +73,17 @@ footer > div {
     color: white;
     font-size: x-large;
 }
+
+@media (max-width: 565px) {
+    form {
+        margin-left: 5vw;
+    }
+    ul > li {
+        display: flex;
+        flex-direction: column;
+    }
+    .btns {
+        width: 30cw;
+    }
+} 
 
