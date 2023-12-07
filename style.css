@@ -85,11 +85,15 @@ article {
     overflow-y: hidden;
 }
 
-article > h2 {
+article > p {
+    margin-bottom: 5vh;
+}
+
+article > h1 {
     color: black;
 }
 
-article > h2 > strong {
+article > h1 > strong {
     color: red;
 }
 
